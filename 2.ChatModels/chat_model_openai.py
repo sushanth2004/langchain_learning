@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-model = ChatOpenAI(model='gpt-4',temperature=0.3,max_completion_tokens=20)
+model = ChatOpenAI(model='gpt-4o-mini')
 
 """
 temperature : range is 0 to 2
