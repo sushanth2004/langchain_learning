@@ -1,0 +1,23 @@
+{
+  "title": "Student",
+  "description": "Schema about students",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "name of the student"
+    },
+    "age": {
+      "type": ["integer", "null"],
+      "description": "age of the student"
+    },
+    "marks": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "string"
+      },
+      "description": "Write down all subject marks scored by student"
+    }
+  },
+  "required": ["name"]
+}
